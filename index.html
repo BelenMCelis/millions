@@ -16,6 +16,8 @@
 	<link rel="stylesheet" href="css/nivo_themes/default/default.css">
 	<link rel="stylesheet" href="css/style.css">
 	<link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body data-spy="scroll" data-target=".navbar-collapse" data-offset="50">
 
@@ -80,7 +82,7 @@
 <!-- work section -->
 <section id="work">
 	<div class="container">
-		<div class="row">
+		<div class="row" data-aos="zoom-in-right">
 			<div class="col-md-12 col-sm-12">
 				<div class="section-title">
 					<strong>01</strong>
@@ -88,71 +90,76 @@
 					<hr>
 				</div>
 			</div>
-			<div class="col-lg-4 col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="0.6s">
-				<i class="icon-cloud medium-icon"></i>
-					<h3>MARKETING DIGITAL</h3>
-					<hr>
-					<p>Ayudamos a las marcas a aumentar su presencia en línea y hacer que se destaquen en el competitivo mundo digital.</p>
-			</div>
-			<div class="col-lg-4 col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="0.9s">
-				<i class="icon-mobile medium-icon"></i>
-					<h3>PUBLICIDAD</h3>
-					<hr>
-					<p>Implementamos estrategias para posicionar tu negocio, captando nuevos clientes e incrementando las ventas online.</p>
-			</div>
-			<div class="col-lg-4 col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="1s">
-				<i class="icon-laptop medium-icon"></i>
-					<h3>E-COMMERCE</h3>
-					<hr>
-					<p>Construimos e implementamos negocios basados en la web, que mejoran las ventas y facilitan el proceso comercial.</p>
-			</div>
+
 			<div class="col-lg-4 col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="1s">
 				<i class="icon-browser medium-icon"></i>
 					<h3>DISEÑO Y DESARROLLO WEB</h3>
 					<hr>
-					<p>Brindamos diseños de alta calidad y soporte completo, para asegurarnos de que tu sitio web sea fácil de navegar.</p>
+					<p>Diseñamos tu sitio con las últimas tendencias. Tenemos los conocimientos para recrear tus ideas.</p>
 			</div>
+
 			<div class="col-lg-4 col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="1s">
 				<i class="icon-compass medium-icon"></i>
 					<h3>POSICIONAMIENTO EN GOOGLE</h3>
 					<hr>
-					<p>Creamos un análisis competitivo e integral para entender que estrategia usar, y asi posicionarte más rápido y eficazmente en Google.</p>
+					<p>Nuestro equipo hará que el sitio web de tu empresa sea accesible, localizable y visible para nuevos clientes.</p>
+			</div>
+
+			<div class="col-lg-4 col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="1s">
+				<i class="icon-laptop medium-icon"></i>
+					<h3>E-COMMERCE</h3>
+					<hr>
+					<p>Construimos tu comercio electrónico para que puedas conectar con tu público, aumentar las ventas y hacer crecer tu negocio.</p>
+			</div>
+
+			<div class="col-lg-4 col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="0.6s">
+				<i class="icon-cloud medium-icon"></i>
+					<h3>PUBLICIDAD EN INSTAGRAM</h3>
+					<hr>
+					<p>Si estás buscando los anuncios más efectivos para tus clientes de Facebook Ads o Instagram Ads, estás en el lugar correcto.</p>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="0.9s">
+				<i class="icon-mobile medium-icon"></i>
+					<h3>PUBLICIDAD EN GOOGLE</h3>
+					<hr>
+					<p>Mostra tus productos y servicios a clientes potenciales. Te ayudaremos a aumentar el número de visitas al sitio y las ventas.</p>
 			</div>
 			<div class="col-lg-4 col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="1s">
 				<i class="icon-chat medium-icon"></i>
-					<h3>SOCIAL MEDIA</h3>
+					<h3>CONTENIDO PARA REDES</h3>
 					<hr>
-					<p>You can easily change icons by looking at <a href="https://www.elegantthemes.com/blog/resources/how-to-use-and-embed-an-icon-font-on-your-website" target="_blank">ET Line Icons</a>. Excepteu sunt in culpa qui officia. Duis aute irure dolor in reprehenderit.</p>
+					<p>Nuestros Community Managers desarrollarán campañas de contenidos de acuerdo a las necesidades de tu negocio. </p>
 			</div>
 		</div>
 	</div>
 </section>
 
+
 <!-- about section -->
-<section id="about">
+<!-- <section id="about">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-12 col-sm-12 text-center">
-				<div class="section-title">
+			<div class="col-md-12 col-sm-12 text-center"> -->
+				<div class="section-title" id="about">
 					<strong>02</strong>
-					<h1 class="heading bold">OUR AGENCY</h1>
+					<h2 class="heading bold">OUR AGENCY</h1>
 					<hr>
 				</div>
-			</div>
+			<!-- </div>
 			<div class="col-md-6 col-sm-12">
 				<img src="images/about-img.jpg" class="img-responsive" alt="about img">
 			</div>
 			<div class="col-md-6 col-sm-12">
 				<h3 class="bold">DIGITAL TEAM</h3>
-				<h1 class="heading bold">Best Design Agency from California</h1>
+				<h1 class="heading bold">Best Design Agency from California</h1>  -->
 				<!-- Nav tabs -->
-				<ul class="nav nav-tabs" role="tablist">
+				<!-- <ul class="nav nav-tabs" role="tablist">
 					<li class="active"><a href="#design" aria-controls="design" role="tab" data-toggle="tab">DESIGN</a></li>
 					<li><a href="#mobile" aria-controls="mobile" role="tab" data-toggle="tab">MOBILE</a></li>
 					<li><a href="#social" aria-controls="social" role="tab" data-toggle="tab">SOCIAL</a></li>
-				</ul>
+				</ul> -->
 				<!-- tab panes -->
-				<div class="tab-content">
+				<!-- <div class="tab-content">
 					<div role="tabpanel" class="tab-pane active" id="design">
 						<p>Duis aute irure dolor in <a href="#">reprehenderit</a> in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Sed id est tincidunt, iaculis nulla vel, sodales metus. Morbi interdum accumsan augue, in accumsan neque lacinia sed. Fusce cursus eu ligula ut gravida.</p>
 						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet. Dolore magna aliquam erat volutpat.</p>
@@ -170,7 +177,51 @@
 			</div>
 		</div>
 	</div>
+</section> -->
+
+
+
+<section id="pasos" class="jarallax" data-jarallax='{"speed": 0.2}' style="background-image: url(https://i.ibb.co/f1VBDTx/startup-594090-960-720.webp);">
+	<div class="bg_layer"></div>
+	<div class="container">
+		<div class="row">
+			<div class="title">
+				<h2 class="text-center" style="color:#fff;font-weight:500;">O ¿prefieres que <span class="white_bolder" style="font-weight:700;"> te guiemos</span>?</h2>
+				<div class="col-sm-12 col-md-6 col-md-offset-3 text-center">
+					<p style="color:#fff;">Te mostramos nuestra fórmula para tener más clientes.</p>
+				</div>
+			</div>
+		</div>
+		<div class="row pasos">
+			<div class="col-md-4 text-center apps">
+				<h3>Paso 1</h3>
+				<div class="icon-brain" style="font-size:55px;"></div>
+				<h4 style="text-transform:uppercase;">Estrategia</h4>
+				<p style="color:#fff;">
+					Antes de invertir, definimos qué acciones tomarás para cumplir tus objetivos.
+				</p>
+			</div>
+			<div class="col-md-4 text-center apps">
+				<h3>Paso 2</h3>
+				<div class="icon-search" style="font-size:55px;"></div>
+				<h4 style="text-transform:uppercase;">Que te encuentren</h4>
+				<p style="color:#fff;">
+					Quizás tengas la mejor idea de negocio, pero si nadie lo sabe ¿de qué sirve?
+				</p>
+			</div>
+			<div class="col-md-4 text-center apps">
+				<h3>Paso 3</h3>
+				<div class="icon-corazon" style="font-size:55px;"></div>
+				<h4 style="text-transform:uppercase;">Que te necesiten</h4>
+				<p style="color:#fff;">
+					Creamos necesidad de tu producto. No te buscamos <em>"likes"</em>, te buscamos clientes.
+				</p>
+			</div>
+		</div>
+	</div>
 </section>
+
+
 
 
 <!-- team section -->
@@ -378,7 +429,7 @@
 				</div>
 			</div>
 			<div class="col-md-6 col-sm-12 contact-info">
-				<h2 class="heading bold">ESTAMOS LISTOS PARA AYUDARTE</h2>
+				<h2 class="heading bold">¡ESTAMOS LISTOS PARA AYUDARTE!</h2>
 				<p>Somos una agencia digital que ayuda a empresas y startups a ser más prósperas y rentables a través del marketing online, las últimas tecnologías y mucha creatividad.</p>
 				<div class="col-md-6 col-sm-4">
 					<h3><i class="icon-envelope medium-icon wow bounceIn" data-wow-delay="0.6s"></i> EMAIL</h3>
@@ -436,7 +487,6 @@
 
 </footer>
 
-
 <script src="js/jquery.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/smoothscroll.js"></script>
@@ -446,6 +496,12 @@
 <script src="js/jquery.backstretch.min.js"></script>
 <script src="js/wow.min.js"></script>
 <script src="js/custom.js"></script>
+
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 
 </body>
 </html>
